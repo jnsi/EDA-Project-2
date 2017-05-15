@@ -44,3 +44,4 @@ png("./data/plot1.png", width=480, height=480)
 plot(Aggrdata, type = "o", main = "Total PM2.5 Emissions From All US Sources", xlab = "Year", ylab = "PM2.5 Emissions(10^6 Tons)", pch = 20, col = "blue", lty = 2)
 
 # Close the device
+dev.off()
